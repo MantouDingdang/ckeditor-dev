@@ -7,6 +7,13 @@ Fixed Issues:
 
 * [#1397](https://github.com/ckeditor/ckeditor-dev/issues/1397): Fixed: Using dialog to remove headers from the [table](https://ckeditor.com/cke4/addon/table) with one headers row only throws an error.
 * [#1479](https://github.com/ckeditor/ckeditor-dev/issues/1479): Fixed: [Justification](https://ckeditor.com/cke4/addon/justify) for styled content in BR mode is disabled.
+* [#2845](https://github.com/ckeditor/ckeditor-dev/issues/2845): [Rich Combo](https://ckeditor.com/cke4/addon/richcombo) reacts to right mouse button click.
+* [#2857](https://github.com/ckeditor/ckeditor-dev/issues/2857): [List Block](https://ckeditor.com/cke4/addon/listblock) items react to right mouse button click.
+* [#2858](https://github.com/ckeditor/ckeditor-dev/issues/2858): [Menu](https://ckeditor.com/cke4/addon/menu) items react to right mouse button click.
+
+API Changes:
+
+* [#2857](https://github.com/ckeditor/ckeditor-dev/issues/2857): The [`CKEDITOR.tools.fireElementEventHandler`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_tools.html#method-fireElementEventHandler) was added.
 
 ## CKEditor 4.11.3
 
