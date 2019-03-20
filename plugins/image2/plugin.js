@@ -1429,7 +1429,7 @@
 		if ( !editor.plugins.link )
 			return;
 
-		CKEDITOR.on( 'dialogDefinition', function( evt ) {
+		var listener = CKEDITOR.on( 'dialogDefinition', function( evt ) {
 			var dialog = evt.data;
 
 			if ( dialog.name == 'link' ) {
@@ -1479,6 +1479,10 @@
 					}
 				};
 			}
+		} );
+		// Listener has to be removed due to leaking editor reference (#589).
+		editor.on( 'destroy', function() {
+			listener.removeListener();
 		} );
 
 		// Overwrite default behaviour of unlink command.
