@@ -13,6 +13,7 @@ Fixed Issues:
 
 API Changes:
 
+* [#2845](https://github.com/ckeditor/ckeditor-dev/issues/2845): The [`CKEDITOR.tools.normalizeMouseButton`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_tools.html#method-normalizeMouseButton) was added.
 * [#2975](https://github.com/ckeditor/ckeditor-dev/issues/2975): The [`CKEDITOR.dom.element#fireEventHandler`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_dom_element.html#method-fireEventHandler) was added.
 
 ## CKEditor 4.11.3
