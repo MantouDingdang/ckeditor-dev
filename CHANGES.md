@@ -13,7 +13,7 @@ Fixed Issues:
 
 API Changes:
 
-* [#2857](https://github.com/ckeditor/ckeditor-dev/issues/2857): The [`CKEDITOR.tools.fireElementEventHandler`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_tools.html#method-fireElementEventHandler) was added.
+* [#2975](https://github.com/ckeditor/ckeditor-dev/issues/2975): The [`CKEDITOR.dom.element#fireEventHandler`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_dom_element.html#method-fireEventHandler) was added.
 
 ## CKEditor 4.11.3
 
